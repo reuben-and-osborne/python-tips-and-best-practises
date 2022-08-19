@@ -1,4 +1,3 @@
-from asyncore import file_dispatcher
 import json
 
 # BAD
