@@ -11,4 +11,4 @@ for i in range(len(letters)):
 for i, letter in enumerate(letters):
     print(i, letter)
 
-[print(i, letter) for letter in enumerate(letters)]
+[print(i, letter) for i, letter in enumerate(letters)]
