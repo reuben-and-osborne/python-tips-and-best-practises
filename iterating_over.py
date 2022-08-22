@@ -19,6 +19,7 @@ for i, number in enumerate(numbers):
 # Expected: numbers = [5, 6, 7]
 print(numbers)
 
+# GOOD
 # Works but creates a new list
 numbers = [1, 2, 3, 5, 6, 7, 0, 1]
 numbers = [number for number in numbers if number >= 5]
