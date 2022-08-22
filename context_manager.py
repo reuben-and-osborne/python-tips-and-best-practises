@@ -1,6 +1,7 @@
 import json
 
 # BAD
+# If an exception is raised, file will never close
 file = open("data.json")
 
 data = json.load(file)
