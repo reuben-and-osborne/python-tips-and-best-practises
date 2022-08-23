@@ -35,3 +35,9 @@ if not empty_list:
     print("Empty List")
 
 print("-----------------")
+
+
+none_check = None
+
+if none_check == None:
+    print("!!!")
