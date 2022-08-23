@@ -1,8 +1,9 @@
-name = "Reuben"
-size = "big"
+animal = "dog"
+name = "Rover"
+sound = "woof"
 
-print("My name is " + name + " and I have a " + size + " head.")
-print("My name is", name, "and I have a", size, "head.")
-print("My name is {} and I have a {} head.".format(name, size))
+print("My name is " +name+ ", I am a " +animal+ " and I say "+sound+".")
+print("My name is",name,", I am a",animal,"and I say",sound,".")
+print("My name is {}, I am a {} and I say {}.".format(name, animal, sound))
 
-print(f"My name is {name} and I have a {size} head.")
+print(f"My name is {name}, I am a {animal} and I say {sound}.")

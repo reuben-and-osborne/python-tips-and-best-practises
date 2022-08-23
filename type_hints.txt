@@ -1,0 +1,6 @@
+benefits of type hints:
+1. less documentation (everyone hates writing docs)
+2. live errors in your ide 
+3. makes coupling more explict 
+4. enforces you to be explict about your data structures (Type-DD)
+5. simplifiy your code (less if statements to check types etc.)
