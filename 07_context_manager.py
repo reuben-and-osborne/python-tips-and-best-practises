@@ -2,7 +2,7 @@ import json
 
 # BAD
 # If an exception is raised, file will never close
-file = open("data.json")
+file = open("07_data.json")
 
 data = json.load(file)
 
