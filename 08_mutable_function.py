@@ -5,7 +5,6 @@ def func(item, lst=[]):
     lst.append(item)
     return lst
 
-
 print(func("A"))
 print(func("B"))
 
@@ -16,7 +15,6 @@ def func(item, lst=None):
         lst = []
     lst.append(item)
     return lst
-
 
 print(func("A"))
 print(func("B"))
