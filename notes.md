@@ -322,7 +322,7 @@ You can also embed expressions, which is evaluated at run time:
 
 ```
 >>> print(f"10 divded by 2 is {10/2}")
-5.0
+10 divded by 2 is 5.0
 ```
 
 ---
